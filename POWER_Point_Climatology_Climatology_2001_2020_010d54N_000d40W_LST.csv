@@ -1,0 +1,32 @@
+-BEGIN HEADER-
+NASA/POWER Source Native Resolution Climatology in LST
+20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020) 
+Location: Latitude  10.5449   Longitude -0.3973 
+Elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 197.86 meters
+The value for missing source data that cannot be computed or is outside of the sources availability range: -999 
+Parameter(s): 
+ALLSKY_SFC_SW_DIFF     SRB V4/CERES SYN1deg All Sky Surface Shortwave Diffuse Irradiance (kW-hr/m^2/day) 
+ALLSKY_SFC_SW_DNI      SRB V4/CERES SYN1deg All Sky Surface Shortwave Downward Direct Normal Irradiance (kW-hr/m^2/day) 
+ALLSKY_SFC_SW_DWN      SRB V4/CERES SYN1deg All Sky Surface Shortwave Downward Irradiance (kW-hr/m^2/day) 
+CLRSKY_SFC_SW_DWN      SRB V4/CERES SYN1deg Clear Sky Surface Shortwave Downward Irradiance (kW-hr/m^2/day) 
+PS                     MERRA-2 Surface Pressure (kPa) 
+PSC                    MERRA-2 Corrected Atmospheric Pressure (Adjusted For Site Elevation) (kPa) 
+QV2M                   MERRA-2 Specific Humidity at 2 Meters (g/kg) 
+T2M                    MERRA-2 Temperature at 2 Meters (C) 
+WS2M                   MERRA-2 Wind Speed at 2 Meters (m/s) 
+WSC                    MERRA-2 Corrected Wind Speed (Adjusted For Elevation) (m/s) 
+Message(s): 
+The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020) 
+Corrected Wind Speed has a custom surface implemented: 35-m broadleaf-evergreen trees (70% coverage) (vegtype_1) 
+-END HEADER-
+PARAMETER,JAN,FEB,MAR,APR,MAY,JUN,JUL,AUG,SEP,OCT,NOV,DEC,ANN
+ALLSKY_SFC_SW_DIFF,2.4156,2.803,2.8392,2.8205,2.7449,2.676,2.5435,2.5044,2.4876,2.5138,2.1466,2.0534,2.5442
+ALLSKY_SFC_SW_DNI,4.1611,3.5762,3.3336,3.4097,3.497,2.9729,2.5334,2.2202,2.711,3.7692,4.8194,4.9262,3.4934
+ALLSKY_SFC_SW_DWN,5.4814,5.6906,5.851,5.9878,5.909,5.4737,5.0254,4.794,5.0971,5.6762,5.6326,5.4461,5.5034
+CLRSKY_SFC_SW_DWN,5.6755,5.9626,6.3634,6.7946,6.9096,6.7418,6.8582,6.9905,6.8304,6.3953,5.8961,5.5901,6.419
+PS,98.85,98.68,98.58,98.57,98.72,98.89,98.94,98.91,98.9,98.81,98.77,98.85,98.79
+PSC,92.36,92.27,92.24,92.23,92.34,92.46,92.47,92.43,92.43,92.36,92.31,92.34,92.35
+QV2M,6.11,7.28,10.95,15.34,17.14,17.35,17.56,17.79,17.95,17.57,13.5,8.56,13.95
+T2M,24.39,28.04,31.04,31.02,29.4,27.61,26.18,25.68,25.93,26.49,26.05,24.03,27.14
+WS2M,2.87,2.72,2.36,2.57,2.42,2.05,1.67,1.53,1.23,1.23,1.44,2.27,2.03
+WSC,3.0,2.71,2.21,2.29,2.29,2.09,1.82,1.68,1.39,1.47,1.64,2.5,2.09
